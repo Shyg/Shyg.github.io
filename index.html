@@ -1,0 +1,216 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>主页</title>
+<link href="css/css.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div id="container">
+  <div class="nav_son">
+  <center><h1>我的个人web </h3></center>
+  </div>
+  <div id="header">
+    <div id="logo"><img src="images/20.gif" width="181" height="45" /></div>
+    <div id="search">
+      <form id="form1" name="form1" method="post" action="">
+        寝室搜索<input class="inp_srh" type="text" name="textfield" id="textfield" />
+        <input class="btn_srh" type="submit" name="button" id="button" value="查询" />
+      </form>
+    </div>
+  </div>
+  <div class="float"></div>
+  <div id="nav">
+    <div id="nav_l"></div>
+    <div id="nav_r"></div>
+    <div class="nav_main">
+  <ul>
+            <li><a href="#"><span>首页</span></a></li>
+            <li><a href="#" id="nav_current"><span>寝室新闻</span></a></li>
+            <li><a href="#"><span>寝室简介</span></a></li>
+            <li><a href="#"><span>寝室展示</span></a></li>
+            <li><a href="#"><span>寝室成员</span></a></li>
+            <li><a href="#"><span>寝室规划</span></a></li>
+            <li><a href="#"><span>寝室生活</span></a></li>
+            <li><a href="#"><span>留言206</span></a></li>
+        </ul>
+     </div>
+     <div class="nav_son">
+        <ul>
+            <li><a href="#">寝室动态</a></li>
+            <li><a href="#">寝室活动</a></li>
+            <li><a href="#">寝室资讯</a></li>
+            <li><a href="#">寝室公告</a></li>
+        </ul>
+     </div>
+  </div>
+  <div class="float"></div>
+  <div id="maincontent">
+    <div id="main">
+      <div id="index_top">
+        <div id="pic">
+          <script language='javascript' type="text/javascript">
+            linkarr = new Array();
+            picarr = new Array();
+            textarr = new Array();
+            var swf_width=269;
+            var swf_height=210;
+            var files = "images/01.jpg|images/02.jpg|images/3.jpg|images/4.jpg";
+            var links = "http://www.abidu.com|#|#|#";
+            var texts = "";
+            for(i=1;i<picarr.length;i++){
+              if(files=="") files = picarr[i];
+              else files += "|"+picarr[i];
+            }
+            for(i=1;i<linkarr.length;i++){
+              if(links=="") links = linkarr[i];
+              else links += "|"+linkarr[i];
+            }
+            for(i=1;i<textarr.length;i++){
+              if(texts=="") texts = textarr[i];
+              else texts += "|"+textarr[i];
+            }
+            document.write('<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="'+ swf_width +'" height="'+ swf_height +'">');
+            document.write('<param name="movie" value="images/indexpic.swf"><param name="quality" value="high">');
+            document.write('<param name="menu" value="false"><param name=wmode value="opaque">');
+            document.write('<param name="FlashVars" value="bcastr_file='+files+'&bcastr_link='+links+'&bcastr_title='+texts+'">');
+            document.write('<embed src="images/indexpic.swf" wmode="opaque" FlashVars="bcastr_file='+files+'&bcastr_link='+links+'&bcastr_title='+texts+'& menu="false" quality="high" width="'+ swf_width +'" height="'+ swf_height +'" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />'); document.write('</object>');
+          </script>
+          <div id="login"><span><a href="#"><img src="images/btn_login1.gif" alt="个人用户登录" width="131" height="39" /></a></span><a href="#"><img src="images/btn_login.gif" alt="经销商登录" width="131" height="39" /></a></div>
+        </div>
+        <div id="hot_news">
+          <div id="news_top">
+            <h1>  206寝室2012-2013年度重大事件</h1>
+            <p>在共产主义依然遥遥无期的2013年，李东海同学顺应时代的步伐毅然踏上士兵突击之路，投身于社会主义的伟大建设之中！</p>
+          </div>
+          <div id="news_list">
+            <ul>
+              <li><span></span><a href="#">206寝室全体成员《快与慢》荣获迎新晚会“金柚子”奖</a></li>
+              <li><span></span><a href="#">根叔儿子考上大学，他再也不用卖豆腐了</a></li>
+              <li><span></span><a href="#">周聪同学本年度毫无亮点可寻</a></li>
+              <li><span></span><a href="#">东海同学离开206，加入中国人民解放军</a></li>
+              <li><span></span><a href="#">老毕竞选为新任团支书</a></li>
+              <li><span></span><a href="#">206急招新成员的加入</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div id="index_pic">
+        <h2><span></span></h2>
+        <ul>
+            <li><a href="#"><img src="images/5.jpg" width="107" height="87" />照片1</a></li>
+            <li><a href="#"><img src="images/6.jpg" width="107" height="87" />照片2</a></li>
+            <li><a href="#"><img src="images/7.jpg" width="107" height="87" />照片3</a></li>
+            <li><a href="#"><img src="images/8.jpg" width="107" height="87" />照片4</a></li>
+            <li><a href="#"><img src="images/9.jpg" width="107" height="87" />照片5</a></li>
+            <li><a href="#"><img src="images/10.jpg" width="107" height="87" />照片6</a></li>
+            <li><a href="#"><img src="images/11.jpg" width="107" height="87" />照片7</a></li>
+            <li><a href="#"><img src="images/12.jpg" width="107" height="87" />照片8</a></li>
+            <li><a href="#"><img src="images/13.jpg" width="107" height="87" />照片9</a></li>
+            <li><a href="#"><img src="images/14.jpg" width="107" height="87" />照片10</a></li>
+        </ul>
+      </div>
+       <div id="index_box">
+        <div class="box">
+          <h2><a class="more" href="#">更多..</a><span>寝室评测</span></h2>
+          <div class="box_con">
+            <dl>
+              <dt><a href="#"><img src="images/1.jpg" alt="多角度对比  给你不一样的节奏" width="91" height="70" /></a></dt>
+              <dd><a href="#"><strong>多角度对比  给你不一样的节奏</strong></a>
+             So easy!妈妈在也不用担心我的寝室啦！;</dd>
+            </dl>
+            <ul>
+            	<li><a href="#">干净整洁，男生宿舍首屈一指。 </a></li>
+              <li><a href="#">楼层最优越的地理位置，气候适宜，冬暖夏凉</a></li>
+              <li><a href="#">切身感受，舒适的休闲娱乐环境倍感身心愉悦！</a></li>
+              <li><a href="#">我和206不一样的故事之四B青年欢乐多。</a></li>
+              <li><a href="#">盘点年度最佳寝室的5大特点。</a></li>
+              <li><a href="#">让206来告诉你什么是高端！大气！上档次！</a></li>
+              <li><a href="#">206！一个神乎奇迹的选择！我行，你也行！！</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="box box1">
+          <h2><a class="more" href="#">更多..</a><span>寝室历史</span></h2>
+          <div class="box_con">
+            <dl>
+              <dt><a href="#"><img src="images/15.gif" alt="206，你的选择" width="91" height="70" /></a></dt>
+              <dd><a href="#"><strong>206，你的选择</strong></a>
+             206！一个神乎奇迹的选择！我行，你也行！；</dd>
+            </dl>
+            <ul>
+              <li><a href="#">206的历史</a></li>
+              <li><a href="#">206的现状</a></li>
+              <li><a href="#">206的发展</a></li>
+              <li><a href="#">206的未来规划</a></li>
+              <li><a href="#">206的最新图集</a></li>
+              <li><a href="#">206的最新动态</a></li>
+              <li><a href="#">206的最新评价</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="side">
+      <div class="side_box">
+      	<h2><b>寝室</b>咨询</h2>
+      	<div class="side_con">
+        	<ul class="product">
+                <li class="line"><b>查询业务：</b><a href="#">普通电话</a> | <a href="#">寝室电话</a></li>
+                <li class="line"><b>信息业务：</b><a href="#">普通电话</a> | <a href="#">寝室电话</a></li>
+                <li><b>其他业务：</b><a href="#">普通电话</a> | <a href="#">寝室电话</a></li>
+            </ul>
+        </div>
+      </div>
+      <div class="float"></div>
+      <div class="side_box">
+      	<h2><b>寝室</b>问答</h2>
+      	<div class="side_con ask">
+        	<dl class="line">
+                <dt><a href="#">要加入206寝室的原因？</a></dt>
+                <dd>在206深造可以让你在不久的将来走上升职加薪，当上总经理，出任CEO,迎娶白富美，走上人生巅峰!</dd>
+            </dl>
+			<!-- 
+            <dl class="line">
+                <dt><a href="#">需要哪些具体的条件？</a></dt>
+                <dd>多读书，多看报，少吃零食，多睡觉！男女不限，女士优先！</dd>
+            </dl>
+            <dl class="line">
+                <dt><a href="#">206寝室的福利体现在哪些方面？</a></dt>
+                <dd>新成员可享受房租减半，水电全免。而且价格公道，童叟无欺！你万万没想到的，206都替你想到。</dd>
+            </dl>
+            <dl class="line">
+                <dt><a href="#">206寝室的具体位置在哪？</a></dt>
+                <dd>206寝室位于华东交大理工学院老校区6栋</dd>
+            </dl>
+            <dl>
+                <dt><a href="#">206寝室的具体联系方式？</a></dt>
+                <dd>电话：1872093xxxx QQ:xxxxxxxxx   微博：xxxxxxxxxx.com</dd>
+            </dl>
+			-->
+        </div>
+      </div>
+      <div class="float"></div>
+      <div class="side_box">
+      	<h2><b>联系</b>我们</h2>
+      	<div class="side_con contact"><a href="#"><img src="images/telephone.jpg" width="222" height="112" /></a></div>
+      </div>
+    </div>
+  </div>
+  <div class="float"></div>
+  <div id="footer">
+      <dl>
+        <dt><a href="#">关于我们</a>　||　<a href="#">寝室资料</a>　||　<a href="#">联系我们</a>　||　<a href="#">寝室链接</a>　||　<a href="#">反馈问题</a>　||　<a href="#">寝室合作</a></dt>
+         
+    </dl>
+  </div>
+  <div class="ali-copyright-text">
+  <center>
+  © 2017-2020 myshyg.cn 版权所有 <a href="http://www.beian.miit.gov.cn" target="_blank" data-spm-anchor-id="a2c4g.11186623.7y9jhqsfz.110"> 备案号: 粤ICP备17153640号-1</a>
+  </center>
+  </div>
+</div>
+</body>
+</html>
